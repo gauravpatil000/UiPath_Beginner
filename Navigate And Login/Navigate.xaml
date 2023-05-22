@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>680,584</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>680,734</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Navigate_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -74,7 +74,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Navigate" sap:VirtualizedContainerService.HintSize="655,519" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Navigate" sap:VirtualizedContainerService.HintSize="655,631" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="iObjEdgeACME" />
     </Sequence.Variables>
@@ -83,19 +83,21 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="593,408" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OutUiElement="[iObjEdgeACME]" ScopeGuid="0c6713f5-5610-4417-8d33-e9dac9d44650" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="593,520" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="[iObjEdgeACME]" OpenMode="Never" ScopeGuid="0c6713f5-5610-4417-8d33-e9dac9d44650" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="559,233" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="559,383" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[iStrNavigationPage]" sap:VirtualizedContainerService.HintSize="497,118" sap2010:WorkflowViewState.IdRef="Switch`1_2" />
+            <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[iStrNavigationPage]" sap:VirtualizedContainerService.HintSize="497,268" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+              <uix:NGoToUrl x:Key="&quot;Work Item&quot;" sap:VirtualizedContainerService.HintSize="334,82" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://acme-test.uipath.com/work-items" Version="V3" />
+            </Switch>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
