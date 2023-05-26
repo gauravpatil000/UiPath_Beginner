@@ -1,5 +1,5 @@
 {
-  "name": "ACME_System1",
+  "name": "ACME_System1 Web-Edge",
   "description": "ACME System1 Library",
   "main": "NewActivity.xaml",
   "dependencies": {
