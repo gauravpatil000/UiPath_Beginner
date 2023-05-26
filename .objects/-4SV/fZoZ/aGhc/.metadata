@@ -1,0 +1,14 @@
+﻿{
+  "Id": "aGhcOAl5U0Cq6B3gS7B4LA",
+  "Reference": "PViYPZbK0UKDvq563R4OCQ/aGhcOAl5U0Cq6B3gS7B4LA",
+  "ParentRef": "PViYPZbK0UKDvq563R4OCQ/fZoZaD04cUG4wwjFx1VBZA",
+  "Name": "Work Items Page",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2023-05-26T10:22:50.5017132Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-26T10:22:50.5017132Z"
+}

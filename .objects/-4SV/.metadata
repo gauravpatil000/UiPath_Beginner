@@ -1,0 +1,14 @@
+﻿{
+  "Id": "-4SV3VIaNUGUe7APl-FKAg",
+  "Reference": "PViYPZbK0UKDvq563R4OCQ/-4SV3VIaNUGUe7APl-FKAg",
+  "Name": "ACME System 1 - Edge",
+  "Type": "App",
+  "Created": "2023-05-26T10:20:36.6227601Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-26T10:21:00.9327195Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
